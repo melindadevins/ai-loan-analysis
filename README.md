@@ -1,4 +1,4 @@
-# AI Load Analysis
+# Loan Analysis Using AI
 
 #### ai-loan-analysis
 
