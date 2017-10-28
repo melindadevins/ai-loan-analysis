@@ -7,9 +7,14 @@ Analyze loan applications, and predict approval rate using machine learning and 
 To run the notebook:
 
 1. Install Anaconda
-2. Create environment *em_hack* from environment.yaml by running command:
+2. On PC, create environment *em_hack* from environment_pc.yaml by running command:
 
-        conda env create -f environment.yaml
+        conda env create -f environment_pc.yaml
+        
+   On Mac, create environment *em_hack* from environment_mac.yaml by running command:
+
+        conda env create -f environment_mac.yaml
+          
 3. Activate the environment by running command: 
 
         activate em_hack

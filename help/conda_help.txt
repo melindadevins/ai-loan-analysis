@@ -1,0 +1,83 @@
+﻿# Step 1.  Install Anaconda
+
+
+# Step 2. Clone the repo:
+git clone https://github.com/melindadevins/ai-loan-analysis.git
+
+
+# Step 3. Change dir to the repo, and create the environment em_hack from the github file (on PC):
+conda env create -f environment_pc.yaml
+
+
+# Mac
+conda env create -f environment_mac.yaml
+
+
+# Step 3. Activate em_hack environment
+activate em_hack
+
+
+# Mac
+source activate em_hack
+
+
+# Step 4. Launch notebook
+jupyter notebook
+
+
+# It should auto launch the browser, if not, from a browser, go to: http://localhost:8888  or the output url from running the above command.
+
+
+
+
+# Step 5. Add new packaged to an existing environment
+# 1>  activate an existing environment by following Step 3
+
+
+# 2>  install the new package either via "pip install", or "conda install", depends on which one is managing the package
+conda install matplotlib
+pip install tensorflow-gpu==1.1
+
+
+# 3> Save your new environment to the file environment_pc.yaml or environment_mac.yaml
+conda env export > environment_pc.yaml    (if you are on PC)
+conda env export > environment_mac.yaml  (if you are on Mac)
+
+
+# 4> Checkin the file to github to share with the team
+git add *
+git commit -m "Modify env file"
+git push
+
+
+# 5> Other team members do a "git pull" to refresh the environment yaml file, then delete the em_hack on your machine, re-create it by following Step 3
+# or follow the step 5 to add the new packages when em_hack is activated
+
+
+___________ # Other helpful commands: ________
+
+
+# Deactivate the environment
+deactivate em_hack  
+
+
+# Mac
+source deactivate em_hack
+
+
+# Create a new conda environment from scratch with packages  
+conda create -n my_new_env python=3 numpy pandas SciPy scikit-learn
+activate my_new_env
+
+
+#Save current environment to a file. The environment must be activated. 
+conda env export > environment_pc.yaml        (if on PC)
+conda env export > environment_mac.yaml        (if on Mac)
+
+
+#List the existing environments on your machine:
+conda env list
+
+
+# Delete an environment (Never delete the root)
+conda env remove -n my_env_to_be_deleted
