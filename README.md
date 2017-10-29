@@ -18,6 +18,11 @@ To run the notebook:
 3. Activate the environment by running command: 
 
         activate em_hack
+        
+   On Mac:
+        
+        source activate em_hack_mac
+        
 4. Laucn notebook by running command: 
 
         jupyter notebook
