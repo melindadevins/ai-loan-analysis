@@ -73,5 +73,6 @@ dependencies:
   - jupyter-console==5.2.0
   - jupyter-core==4.3.0
   - prompt-toolkit==1.0.15
+  - xlsxwriter==1.0.2
 prefix: /anaconda/envs/em_hack_mac
 
