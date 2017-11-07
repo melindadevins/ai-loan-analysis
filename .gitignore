@@ -26,7 +26,7 @@ wheels/
 .installed.cfg
 *.egg
 .ipynb_checkpoints/
-*.csv
+data/ny_hmda_2015.csv
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
