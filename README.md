@@ -1,5 +1,13 @@
 # Loan Analysis Using AI
 
+#### Data Source
+
+This is the HMDA public mortgage loan data for New York 2015. Source Url: https://www.consumerfinance.gov/data-research/hmda/explore 
+
+The Home Mortgage Disclosure Act (or HMDA, pronounced HUM-duh) is a United States federal law that requires certain financial institutions to provide mortgage data to the public. Congress enacted HMDA in 1975.
+
+
+
 #### ai-loan-analysis
 
 Analyze loan applications, and predict approval rate using machine learning and deep learning algorithms
