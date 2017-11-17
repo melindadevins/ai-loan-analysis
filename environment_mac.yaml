@@ -1,6 +1,6 @@
 name: em_hack_mac
-channels:
-- defaults
+channels: !!python/tuple
+- !!python/unicode 'defaults'
 dependencies:
 - appnope=0.1.0=py36_0
 - bleach=1.5.0=py36_0
@@ -35,7 +35,6 @@ dependencies:
 - pandas=0.20.3=py36_0
 - pandocfilters=1.4.2=py36_0
 - path.py=10.3.1=py36_0
-- patsy=0.4.1=py36_0
 - pexpect=4.2.1=py36_0
 - pickleshare=0.7.4=py36_0
 - pip=9.0.1=py36_1
@@ -53,13 +52,11 @@ dependencies:
 - readline=6.2=2
 - scikit-learn=0.19.0=np113py36_0
 - scipy=0.19.1=np113py36_0
-- seaborn=0.8=py36_0
 - setuptools=36.4.0=py36_1
 - simplegeneric=0.8.1=py36_1
 - sip=4.18=py36_0
 - six=1.10.0=py36_0
 - sqlite=3.13.0=0
-- statsmodels=0.8.0=np113py36_0
 - terminado=0.6=py36_0
 - testpath=0.3.1=py36_0
 - tk=8.5.18=0
@@ -72,6 +69,7 @@ dependencies:
 - zlib=1.2.11=0
 - pip:
   - enum34==1.1.6
+  - h5py==2.7.1
   - ipython-genutils==0.2.0
   - jupyter-client==5.1.0
   - jupyter-console==5.2.0
@@ -81,9 +79,10 @@ dependencies:
   - prompt-toolkit==1.0.15
   - protobuf==3.4.0
   - pyyaml==3.12
+  - seaborn==0.8.1
   - tensorflow==1.4.0
   - tensorflow-tensorboard==0.4.0rc2
   - werkzeug==0.12.2
   - xlsxwriter==1.0.2
-prefix: /anaconda/envs/em_hack_mac
+prefix: //anaconda/envs/em_hack_mac
 

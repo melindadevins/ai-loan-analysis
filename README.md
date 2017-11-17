@@ -1,16 +1,9 @@
-# Loan Analysis Using AI
+# Loan Application Analysis Using Machine Learning and Deep Learning
 
-#### Data Source
+### Ellie Mae Hatckathon 2017
+### Team Crystal Ball
 
-This is the HMDA public mortgage loan data for New York 2015. Source Url: https://www.consumerfinance.gov/data-research/hmda/explore 
-
-The Home Mortgage Disclosure Act (or HMDA, pronounced HUM-duh) is a United States federal law that requires certain financial institutions to provide mortgage data to the public. Congress enacted HMDA in 1975.
-
-
-
-#### ai-loan-analysis
-
-Analyze loan applications, and predict approval rate using machine learning and deep learning algorithms
+Analyze loan applications, and predict approval probablity using machine learning and deep learning algorithms
 
 To run the notebook:
 
@@ -27,10 +20,19 @@ To run the notebook:
 
         activate em_hack
         
-   On Mac:
-        
-        source activate em_hack_mac
-        
-4. Laucn notebook by running command: 
+4. Launch notebook by running command: 
 
         jupyter notebook
+        
+5. Unzip all zip files under *data* directory before run any jupyter notebook files
+
+6. The following is the content of the project:
+
+*/asset*    Images, and slides used in Ellie Mae Hackthon 2017
+
+*/data*     The input data files, including pre-processed data files
+
+*/models*   Trained models
+
+*/server*   Flask server that hosts REST API for real time prediction using trained models
+
